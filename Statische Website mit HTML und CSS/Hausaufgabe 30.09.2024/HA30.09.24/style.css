@@ -1,0 +1,34 @@
+body {
+    background-color: lightpink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0%;
+}
+
+h1 {
+    color:deeppink;
+}
+
+h2 {
+    color:blueviolet;
+}
+
+p{
+    color:blueviolet;
+}
+
+ul{
+    color: darkmagenta;
+    list-style-type: none;
+}
+
+div{
+    background-color:hotpink;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
