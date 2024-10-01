@@ -1,0 +1,165 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0%;
+    padding:0%;
+    background-color: #F4F4F9;
+    color: #333;
+    text-align: center;
+}
+/*Header*/
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0%;
+    font-size: 36px;
+}
+
+header ul li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/*Sektion 1*/
+.section1 {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ECF0F1;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #34495E;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 10px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/*Sektion 2*/
+.section2 {
+    background-color: #D6EAF8;
+}
+
+/*Sektion 3*/
+.section3 img {
+    max-width: 100%;
+    height: 40%;
+    width: 40%;
+    border-radius: 15px;
+}
+
+/*Sektion4*/
+.section4 {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ECF0F1;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #34495E;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 10px;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/*Sektion5*/
+.section5 img {
+    height: 30%;
+    width: 30%;
+}
+
+.zoom {
+    transition: transform 0.3s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+/*Sektion6*/
+.section6 img {
+    height:30%;
+    width: 30%;
+    
+}
+
+/*Sektion7*/
+.section7 img {
+    width: 30%;
+    height: 30%;
+}
+
+/*Sektion8*/
+.section8 img {
+    height: 30%;
+    width: 30%;
+} 
+
+
+/*Footer*/
+footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #ECF0F1;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
