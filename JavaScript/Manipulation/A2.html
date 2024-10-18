@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- Button mit dem Text "Ändere Farbe"-->
+    <!-- Der Button bekommt eine ID, damit man ihn im JavaScript ansprechen kann-->
+    <button id="colorButton">Ändere Farbe</button>
+    <script>
+         // Funktion zum Generieren einer zufälligen Farbe
+        function getRandomColor() {
+            // Eine Zeichenkette mit allen Hexadezimalzeichen (0-9, A-F)
+            const letters = '0123456789ABCDEF';
+            // Eine Variable, um die Farbe zu speichern, die immer mit # beginnt
+            let color = '#';
+            // Eine Schleife, die 6-mal läuft, um 6 Zeichen auszuwählen
+            for (let i = 0; i < 6; i++) {
+                // Wähle zufällig ein Zeichen aus der Zeichenkette "letters" und füge es zur Farbe hinzu
+                color += letters[Math.floor(Math.random() * 16)];
+                // Math.random() * 16 gibt eine Zahl zwischen 0 und 15 zurück
+                // Math.floor() rundet diese Zahl ab, sodass es eine ganze Zahl von 0 bis 15 gibt
+            }
+            // Die fertige zufällige Farbe (z.B. #FF5733) wird zurückgegeben
+            return color;
+        }
+        // Wir wählen das Button-Element mit der ID "colorButton" aus
+        const button = document.getElementById("colorButton");
+        // Hier fügen wir einen Event-Listener hinzu, der auf den Button hört
+        // Wenn der Button geklickt wird, soll die Funktion ausgeführt werden
+        button.addEventListener("click", function() {
+            // Ändere die Hintergrundfarbe des Buttons auf eine zufällig generierte Farbe
+            button.style.backgroundColor = getRandomColor();
+        });
+
+    </script>
+    
+</body>
+</html>
